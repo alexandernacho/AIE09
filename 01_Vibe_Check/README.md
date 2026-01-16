@@ -45,20 +45,28 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner.
-    - Aspect Tested:
+    - Aspect Tested: Ability to explain complex technical concepts in accessible language; pedagogical clarity and simplification skills
 2. Read the following paragraph and provide a concise summary of the key points…
-    - Aspect Tested:
+    - Aspect Tested: Reading comprehension and summarization capabilities; ability to extract and condense key information
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested:
+    - Aspect Tested: Creative writing and storytelling ability; imagination and narrative coherence within constraints
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
-    - Aspect Tested:
+    - Aspect Tested: Mathematical reasoning and basic arithmetic; problem-solving with real-world word problems
 5. Rewrite the following paragraph in a professional, formal tone…
-    - Aspect Tested:
+    - Aspect Tested: Tone adaptation and style transformation; understanding of register and professional communication norms
 
 #### ❓Question #1:
 
 Do the answers appear to be correct and useful?
 ##### ✅ Answer:
+Yes, the answers appear to be both correct and useful. The assistant successfully:
+- Explained OOP concepts using relatable analogies (like blueprints and objects) that a beginner could understand
+- Provided accurate summaries that captured the essential points without unnecessary details
+- Generated a creative and coherent story within the word limit constraints
+- Correctly calculated 3 packs of apples (3×4=12) and 3 packs of oranges (3×3=9)
+- Appropriately transformed casual text into professional, formal language
+
+The responses demonstrated strong general knowledge capabilities and the ability to adapt to different task types. The math answer was verifiably correct, and the creative and explanatory responses were well-structured and on-topic.
 
 ---
 
@@ -73,17 +81,32 @@ Now test your assistant with personal questions it should be able to help with. 
 - "What can I cook with [enter ingredients] in fridge."
 
 ##### Your Prompts and Results:
-1. Prompt:
-   - Result:
-2. Prompt:
-   - Result:
-3. Prompt:
-   - Result:
+1. Prompt: "Help me think through the pros and cons of switching from a full-time job to freelance consulting."
+   - Result: The assistant provided a well-organized analysis covering financial stability vs. flexibility, benefits considerations, work-life balance implications, and career growth opportunities. It asked clarifying questions about my industry and risk tolerance to personalize the advice.
+
+2. Prompt: "Draft a polite follow-up email to a recruiter who hasn't responded in 2 weeks after my final interview."
+   - Result: The assistant generated a professional, warm email that expressed continued interest without being pushy. It included a brief reminder of the position, a polite inquiry about timeline, and offered to provide additional information if needed.
+
+3. Prompt: "What can I cook with chicken, broccoli, garlic, and rice in my fridge?"
+   - Result: The assistant suggested several recipes including chicken stir-fry with broccoli and garlic over rice, a one-pan garlic chicken and broccoli bake, and a simple chicken fried rice. Each suggestion included basic cooking steps and estimated prep times.
 
 #### ❓Question #2:
 
 Are the vibes of this assistant's answers aligned with your vibes? Why or why not?
 ##### ✅ Answer:
+Yes, the vibes are generally well-aligned. The assistant demonstrates:
+
+**Positive alignment:**
+- **Helpful without being overbearing:** It provides actionable advice while leaving room for my own judgment
+- **Professional yet approachable tone:** The responses feel conversational but competent
+- **Practical focus:** Solutions are grounded in real-world applicability rather than theoretical abstractions
+- **Thoughtful structure:** Information is organized logically, making it easy to digest
+
+**Areas for potential improvement:**
+- Sometimes responses could be more concise; I prefer brevity when possible
+- The assistant could ask more upfront clarifying questions to better tailor responses to my specific situation
+
+Overall, the assistant feels like a knowledgeable collaborator that respects my autonomy while offering valuable input. The tone matches what I'd expect from a helpful colleague.
 
 ---
 
@@ -95,15 +118,31 @@ Now test your assistant with questions that would require capabilities beyond ba
 - "What time should I leave for the airport?"
 
 ##### Your Prompts and Results:
-1. Prompt:
-   - Result:
-2. Prompt:
-   - Result:
+1. Prompt: "What does my schedule look like tomorrow?"
+   - Result: The assistant acknowledged it doesn't have access to my calendar or scheduling apps. It offered to help me organize my schedule if I shared my appointments, and suggested calendar integration tools I could explore for future functionality.
+
+2. Prompt: "What's the current weather in San Francisco and should I bring an umbrella today?"
+   - Result: The assistant explained it cannot access real-time weather data or APIs. It provided general advice about checking weather apps and mentioned that integrating a weather API would be needed to answer such questions accurately.
 
 #### ❓Question #3:
 
 What are some limitations of your application?
 ##### ✅ Answer:
+Based on the vibe check, the following limitations were identified:
+
+1. **No real-time data access:** The application cannot fetch current information like weather, news, stock prices, or live events. It's limited to its training data cutoff.
+
+2. **No external integrations:** Cannot connect to personal services like calendars, email, task managers, or other productivity tools that would enable personalized assistance.
+
+3. **No persistent memory:** The assistant doesn't remember previous conversations or learn user preferences over time. Each session starts fresh.
+
+4. **No web browsing capability:** Cannot search the internet, verify current facts, or access URLs for up-to-date information.
+
+5. **No file/document processing:** Cannot read, analyze, or modify documents, spreadsheets, or other files the user might want to work with.
+
+6. **Limited context window:** Very long conversations or documents may exceed the model's context limits, potentially losing important earlier information.
+
+These limitations highlight opportunities for future enhancements through tool integration, RAG systems, or agent-based architectures.
 
 ---
 
