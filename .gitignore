@@ -2,3 +2,7 @@
 .env
 content/
 .prompts/
+.claude/
+blog-drafts/
+learnings/
+__pycache__/
