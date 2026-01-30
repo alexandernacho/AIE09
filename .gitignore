@@ -2,3 +2,8 @@
 .env
 content/
 .prompts/
+__pycache__/
+*.pyc
+.langgraph_api/
+.venv
+uv.lock
