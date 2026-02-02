@@ -51,6 +51,11 @@ Standard **Build → Ship → Share** submission:
 - [ ] Identify all TODO/exercise sections
 - [ ] Note any "Advanced Build" optional sections
 - [ ] Review Obsidian notes for context
+- [ ] If no session folder is present in the Obsidian vault (`/Users/alexandercoenegrachts/Library/Mobile Documents/com~apple~CloudDocs/obsidian-vault/AIE9`), do so by adding the following structure
+    - /AIE9/ #Obsidian vault location
+      ├── /`Session_X_Session_Title`/
+      │   ├── /`Pre-work`
+      │   ├── /`learnings`/ 
 
 ## Output Format
 
